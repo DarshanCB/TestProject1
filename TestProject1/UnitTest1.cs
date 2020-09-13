@@ -37,9 +37,14 @@ namespace TestProject1
         {
             try
             {
+                
 
 
                 IWebDriver driver = driver_URl(Url_pass);
+
+                int x = 10;
+                
+                Assert.Equal(10,x);
                 
                
                 
